@@ -207,6 +207,7 @@
 }
 
 
+
   
 .smallbox-6 {
     display: flex ;
@@ -225,4 +226,7 @@
     flex-wrap: wrap;
     border-radius: 25px;
    
+}
+.boxw {
+    flex-grow: 1;
 }
