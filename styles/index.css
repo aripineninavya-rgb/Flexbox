@@ -1,232 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.body {
+    width: 100%;
+    height: 100vh;
+    background: #370617;
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+
 .main-box {
     /* Squares */
    
 
     width: 100%;
-    max-width: 1070px;
+    max-width: 1152px;
     min-height: 500px;
-    padding: 70px;
     background: #370617;
     display: flex ;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
     
 }
 
 
-.boxl {
+.box {
     /* rectangle boxes */
 
 
-    width: 468px;
+    width: 500px;
     height: 160px;
     border: 20px solid #370617;
     border-radius: 40px;
-    padding: 10px;
     background: #F48C06;
     display: flex ;
     flex-wrap: wrap;
-    align-items: end;
+    align-items: center;
     
 }
 
-.smallbox-1 {
+
+
+/*.smallbox {
+    border: 20px solid #370617;
+    border-radius: 25px;
     display: flex ;
     flex-wrap: wrap;
     align-items: end;
-}
+}*/
 
-.small-box-a {
+
+
+
+.Redbox {
   
     width: 78px;
-    height: 78px;
+    min-height: 78px;
     border: 20px solid #F48C06;
     background: #9D0208;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     border-radius: 25px;
+    align-items: center;
+}
+
+
+
+
+.box1 {
+    align-items: flex-end;
 }
 
 
 .box2 {
-    /* rectangle boxes */
-
-
-    width: 468px;
-    height: 160px;
-    border: 20px solid #370617;
-    border-radius: 40px;
-    padding: 10px;
-    background: #F48C06;
-    display: flex ;
-    flex-wrap: wrap;
+    align-items: stretch;
     justify-content: center;
-    
 }
-
-.smallbox-2 {
-    display: flex ;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.small-box-b {
-  
-    width: 78px;
-    height: 120px;
-    border: 20px solid #F48C06;
-    background: #9D0208;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
-}
-
-
 
 .box3 {
-    /* rectangle boxes */
-
-
-    width: 468px;
-    height: 160px;
-    border: 20px solid #370617;
-    border-radius: 40px;
-    padding: 10px;
-    background: #F48C06;
-    display: flex ;
-    flex-wrap: wrap;
     justify-content: flex-end;
-    
-}
-
-.smallbox-3 {
-    display: flex ;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
-
-.small-box-c {
-
-    width: 78px;
-    height: 78px;
-    border: 20px solid #F48C06;
-    background: #9D0208;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
 }
 
 .box4 {
-    /* rectangle boxes */
-
-  
-    width: 468px;
-    height: 160px;
-    border: 20px solid #370617;
-    border-radius: 40px;
-    padding: 10px;
-    background: #F48C06;
-    display: flex ;
-    flex-wrap: wrap;
     justify-content: space-between;
-    
+    align-items: flex-start;
 }
-
-.smallbox-4 {
-    display: flex ;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   gap: 50px;
-}
-
-.small-box-d {
-    position: relative ;
-    width: 78px;
-    height: 78px;
-    border: 20px solid #F48C06;
-    background: #9D0208;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
-}
-
 
 .box5 {
-    /* rectangle boxes */
-
-
-    width: 468px;
-    height: 160px;
-    border: 20px solid #370617;
-    border-radius: 40px;
-    padding: 10px;
-    background: #F48C06;
-    display: flex ;
-    flex-wrap: wrap;
-    align-items: center;
+    color: aliceblue;
+    justify-content: center
     
 }
-
-.smallbox-5 {
-    display: flex ;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: #ffffff;
-    gap: 50px;
-    align-items: center;
-}
-
-.small-box-e {
-   
-    width: 78px;
-    height: 78px;
-    border: 20px solid #F48C06;
-    background: #9D0208;
-    align-items: center;    
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
-}
-
-
 
 .box6 {
-    /* rectangle boxes */
-
-   
-    width: 468px;
-    height: 160px;
-    border: 20px solid #370617;
-    border-radius: 40px;
-    padding: 10px;
-    background: #F48C06;
-    display: flex ;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-
-
-
-  
-.smallbox-6 {
-    display: flex ;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
-.small-box-f {
 
-    width: 78px;
-    height: 78px;
-    border: 20px solid #F48C06;
-    background: #9D0208;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
-   
+.smallboxd {
+    align-self: flex-end;
 }
-.boxw {
-    flex-grow: 1;
+
+.smallboxe {
+    
+    align-self: stretch;
+    justify-content: center;
+
 }
+
+.smallboxf {
+    flex-grow: 2;
+}
+
